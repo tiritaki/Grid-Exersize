@@ -16,7 +16,7 @@
     font-size: 32px;
     color: aliceblue;
     padding: 50px 0;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .price-row {
@@ -37,3 +37,53 @@
     padding: 10% 15%;
     background-color: blueviolet;
 }
+
+.price-column p {
+    font-size: 28px;
+}
+
+.price-column h3{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.price-column span {
+    font-size: 20px;
+}
+
+.price-column ul {
+    text-align: left;
+    margin: 20px 0px;
+    color: white;
+    list-style: none;
+}
+
+.price-column ul li{
+    margin: 15px 0px;
+    
+}
+.price-column button {
+    margin: 20px 10px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid red;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 14px 0px;
+    transition: all 5ms;
+}
+
+.price-column ul li::before{
+    color: red;
+    font-weight: 900;
+    padding: 14px 0px;
+    content: "\2022" ;
+    margin-right: 8px;
+}
+
+.price-column button:hover {
+    background-color: rgb(0, 60, 255);
+    
+  }
